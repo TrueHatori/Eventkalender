@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Event Calendar" lan="LAN_PLUGIN_ECAL_LINKNAME" version="1.0" date="2019-04-29" compatibility="2.0" installRequired="true" >
+	<author name="Hatori" url="http://www.spandau-ninja.de" />
+	<summary lan="LAN_PLUGIN_ECAL_TITLE">A little event calendar</summary>
+	<description lan="LAN_PLUGIN_ECAL_DESC">A little event calendar</description>
+	<keywords>
+		<word>generic</word>
+		<word>event</word>
+		<word>calendar</word>
+	</keywords>
+	<category>content</category>
+	<copyright>Hatori, Kuroi Fenikkusu Dojo</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/kk_32.png" iconSmall="images/kk_16.png" icon128="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='ec_ID'></pref>
+		<pref name='ec_Name'></pref>
+		<pref name='ec_URL'></pref>
+		<pref name='ec_Beginn'></pref>
+		<pref name='ec_Ende'></pref>
+		<pref name='ec_Beschreibung'></pref>
+	</pluginPrefs>
+</e107Plugin>
